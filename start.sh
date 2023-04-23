@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/TechnoMindz/IMDB_AutoDeleteRobot.git /IMDB_AutoDeleteRobot
+  git clone https://github.com/RaviTechnoMindz/IMDB_AutoDeleteRobot.git /IMDB_AutoDeleteRobot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /IMDB_AutoDeleteRobot
