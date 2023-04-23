@@ -8,5 +8,5 @@ else
 fi
 cd /IMDB_AutoDeleteRobot
 pip3 install -U -r requirements.txt
-echo "Starting Techno Mindz..."
+echo "Starting Techno Mindz...❤️‍🔥"
 python3 bot.py
