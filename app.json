@@ -1,7 +1,6 @@
 {
     "name": "Techno Mindz Bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://telegra.ph/file/a2a1dac049b50dc7f8dfb.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -24,15 +23,20 @@
             "required": true,
             "value": "enteryourbottoken123456789"
         },
+        "BOT_USERNAME": {
+            "description": "enter Bot Username Without @",
+            "required": true,
+            "value": "TmTesterbot"
+        },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "17xxxxx"
+            "value": "170####"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "29fd19124a1f32e915062xxxx"
+            "value": "29fd19124#################357a7a2f"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
@@ -40,14 +44,9 @@
             "value": "-100xxxxxxxxxx"
         },
         "ADMINS": {
-            "description": " ID of Admin. Separate multiple Admins by space.",
+            "description": "Username or ID of Admin. Separate multiple Admins by space.",
             "required": true,
             "value": "10896xxxxx"
-        },
-        "BOT_USERNAME": {
-            "description": "Username of Bot Without @",
-            "required": true,
-            "value": "TmOfficialRobot"
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -81,17 +80,17 @@
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
             "required": false,
-            "value": "All New Movies Available Only @TechnoMoviesCollection"
+            "value": "enteranycaption"
         },
         "UPSTREAM_REPO": {
             "description": "Don't Change Or It Won't Work",
             "required": true,
-            "value": "https://github.com/TechnoMindz/IMDB_AutoDeleteRobot"
+            "value": "youreditedgithublink"
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true,
-            "value": "paste_your_mongodb_link"
+            "value": "mongodblink"
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
@@ -110,7 +109,7 @@
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False ",
-            "required": false,
+            "required": true,
             "value": "True"
         },
         "SINGLE_BUTTON": {
@@ -119,9 +118,9 @@
             "value": "True"
         },
         "P_TTI_SHOW_OFF": {
-            "description": "Customize Result Buttons to Callback or Url by (True = url / False = Direct PM)",
-            "required": false,
-            "value": "False"
+            "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
+            "required": true,
+            "value": "True"
         }
     },
     "addons": [],
